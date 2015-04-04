@@ -1,0 +1,96 @@
+@import url("../../fonts/chunkfive/chunkfive.css");
+@import url("../../fonts/cinzel/cinzel.css");
+
+html, body {
+	height: 100%;
+}
+
+.bg-video {
+	z-index: -1;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	display: none;*/
+}
+
+.pg-introduce {
+	height: 100%;
+}
+
+.pg-introduce .left-side,
+.pg-introduce .right-side {
+	display: table;
+	height: 100%;
+	width: 50%;
+	float: left;
+	text-align: center;
+	z-index: 2;
+}
+
+.pg-introduce h1 {
+	font-family: 'cinzelbold';
+	font-size: 72px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #232323;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	opacity: 0.95;
+}
+
+.pg-introduce h1 span {
+	display: block;
+}
+
+.pg-introduce .right-side .author-wrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.author-wrap .twit {
+	font-family: 'cinzelbold';
+	font-size: 28px;
+}
+
+.author-wrap .author {
+	font-family: 'cinzelregular';
+	display: block;
+	padding: 10px;
+	text-align: right;
+	border-top: 1px solid #c4c4c4;
+	color: #545454;
+}
+
+.author-wrap .author strong {
+	font-family: 'cinzelbold';
+	color: #000;
+}
+
+/* Navigation */
+
+.pg-introduce nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: right;
+	padding: 20px 20px;
+	font-family: 'cinzelregular';
+}
+
+.pg-introduce nav a {
+	display: inline-block;
+	padding: 4px 6px;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #545454;
+}
+
+.pg-introduce nav a:hover {
+	background-color: #CEEAFC;
+	border-radius: 10px;
+	color: #343434;
+}
+
+
